@@ -17,7 +17,7 @@ setup(name='py-s3-cache',
       packages=find_packages(exclude=['docs','tests','examples']),
       include_package_data=True,
       zip_safe=False,
-      install_requires=['boto3, arrow'],
+      install_requires=['boto3', 'arrow'],
       setup_requires=['pytest-runner'],
       tests_require=['pytest','vcrpy']
 )
