@@ -6,7 +6,7 @@ if sys.version_info > (3,):
     open_kwds['encoding'] = 'utf-8'
 
 setup(name='py-s3-cache',
-      version='0.0.1',
+      version='1.0.0',
       description='Super minimal python S3 cache',
       classifiers=[],
       keywords='',
