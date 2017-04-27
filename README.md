@@ -13,7 +13,7 @@ from py_s3_cache import Cache
 cache = Cache('<bucket>','<prefix>')
 
 # cache something for an hour
-cache.put(key, value, 3600)
+cache.set(key, value, 3600)
 
 # get something out of the cache
 value = cache.get(key)
