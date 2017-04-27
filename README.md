@@ -1,5 +1,6 @@
 # py-s3-cache
 Super minimal python S3 cache
+
 [![PyPI version](https://badge.fury.io/py/py-s3-cache.svg)](https://badge.fury.io/py/py-s3-cache) 
 [![Build Status](https://travis-ci.org/nricklin/py-s3-cache.svg?branch=master)](https://travis-ci.org/nricklin/py-s3-cache)
 [![codecov](https://codecov.io/gh/nricklin/py-s3-cache/branch/master/graph/badge.svg)](https://codecov.io/gh/nricklin/py-s3-cache)
