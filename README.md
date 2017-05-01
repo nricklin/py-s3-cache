@@ -24,3 +24,8 @@ value = cache.get(key)
 if not value:
     print "didn't find it in the cache"
 ```
+
+TODO:
+
+- Add context manager
+- Add decorator
