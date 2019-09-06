@@ -38,9 +38,9 @@ class Cache(object):
         obj = self.s3.Object(self.bucket,self.prefix + '/' + key)
 
         if ttl:
-            expires_at = str( arrow.utcnow().replace(seconds=ttl) )
+            expires_at = str( arrow.utcnow().shift(seconds=ttl) )
         else:
-            expires_at = str( arrow.utcnow().replace(years=100) )
+            expires_at = str( arrow.utcnow().shift(years=100) )
 
         data = {
             "value": value,
